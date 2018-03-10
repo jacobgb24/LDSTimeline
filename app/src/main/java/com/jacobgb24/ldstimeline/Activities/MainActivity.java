@@ -2,7 +2,9 @@ package com.jacobgb24.ldstimeline.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
+import com.jacobgb24.ldstimeline.Model.Dao;
 import com.jacobgb24.ldstimeline.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //change
+        Log.e("Events", Dao.getInstance(getBaseContext()).getEvents().toString());
     }
 }

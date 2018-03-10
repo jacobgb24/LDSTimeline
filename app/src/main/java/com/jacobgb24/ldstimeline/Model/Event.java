@@ -1,6 +1,7 @@
 package com.jacobgb24.ldstimeline.Model;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by jacob_000 on 2/17/2018.
@@ -15,7 +16,7 @@ public class Event {
     private String shortDesc;
     private String fullDesc;
     private List<String> images;
-    private List<String> sources;
+    private Map<String, String> sources;
 
     public Event() {
     }
@@ -84,11 +85,11 @@ public class Event {
         this.images = images;
     }
 
-    public List<String> getSources() {
+    public Map<String, String> getSources() {
         return sources;
     }
 
-    public void setSources(List<String> sources) {
+    public void setSources(Map<String, String> sources) {
         this.sources = sources;
     }
 }
