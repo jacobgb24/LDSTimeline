@@ -1,0 +1,19 @@
+[
+  {
+    "name": "First Vision",
+    "date": "March 26, 1820",
+    "location": "Palmyra, NY",
+    "latitude": 43.039584,
+    "longitude": -77.245565,
+    "fullDesc": "Joseph Smith received the First Vision in a grove of trees near his home in the state of New York",
+    "images": [
+      "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/780x390/telford_sacred_grove_cover.jpg",
+      "https://history.lds.org/bc/content/images/joseph-smith-net/Artwork/rane-sacred-grove.jpg"
+    ],
+    "sources": {
+      "Joseph Smith Papers": "http://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/1",
+      "LDS.org": "https://history.lds.org/article/historic-sites/palmyra/sacred-grove?lang\u003deng\u0026groupid\u003d42505425195324349830-eng",
+      "Joseph Smith History": "https://www.lds.org/scriptures/pgp/js-h/1.15-20?lang\u003deng#14"
+    }
+  }
+]
