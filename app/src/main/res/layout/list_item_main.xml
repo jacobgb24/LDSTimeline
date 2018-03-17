@@ -22,7 +22,7 @@
             android:gravity="left"
             android:textColor="?android:textColorPrimary"
             android:layout_height="wrap_content"
-            android:id="@+id/event_name"/>
+            android:id="@+id/list_main_title"/>
         <TextView
             android:layout_width="wrap_content"
             android:paddingRight="8dp"
@@ -31,11 +31,11 @@
             android:gravity="right"
             android:textColor="?android:textColorPrimary"
             android:layout_height="wrap_content"
-            android:id="@+id/event_date"/>
+            android:id="@+id/list_main_date"/>
 
     </LinearLayout>
     <TextView
-        android:id="@+id/event_location"
+        android:id="@+id/list_main_location"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:textColor="?android:textColorSecondary"

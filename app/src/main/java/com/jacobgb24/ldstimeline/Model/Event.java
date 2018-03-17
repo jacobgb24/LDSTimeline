@@ -13,10 +13,9 @@ public class Event {
     private String location;
     private double latitude;
     private double longitude;
-    private String shortDesc;
     private String fullDesc;
-    private List<String> images;
-    private Map<String, String> sources;
+    private List<Pair> images;
+    private List<Pair> sources;
 
     public Event() {
     }
@@ -61,14 +60,6 @@ public class Event {
         this.longitude = longitude;
     }
 
-    public String getShortDesc() {
-        return shortDesc;
-    }
-
-    public void setShortDesc(String shortDesc) {
-        this.shortDesc = shortDesc;
-    }
-
     public String getFullDesc() {
         return fullDesc;
     }
@@ -77,19 +68,19 @@ public class Event {
         this.fullDesc = fullDesc;
     }
 
-    public List<String> getImages() {
+    public List<Pair> getImages() {
         return images;
     }
 
-    public void setImages(List<String> images) {
+    public void setImages(List<Pair> images) {
         this.images = images;
     }
 
-    public Map<String, String> getSources() {
+    public List<Pair> getSources() {
         return sources;
     }
 
-    public void setSources(Map<String, String> sources) {
+    public void setSources(List<Pair> sources) {
         this.sources = sources;
     }
 }

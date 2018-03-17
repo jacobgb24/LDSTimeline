@@ -1,9 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.jacobgb24.ldstimeline.Activities.DetailedActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="outsideOverlay">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
 
-</android.support.constraint.ConstraintLayout>
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:paddingTop="24dp"
+            android:paddingLeft="16dp"
+            android:id="@+id/details_title"
+            android:textColor="?android:textColorPrimary"
+            android:text="First Vision"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location_24dp"
+                android:tint="@color/colorAccent"
+                android:id="@+id/details_ic_loc"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_toRightOf="@+id/details_ic_loc"
+                android:id="@+id/details_location"
+                android:text="Palmyra, NY"
+                android:textSize="16sp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_time_24dp"
+                android:tint="@color/colorAccent"
+                android:id="@+id/details_ic_clock"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_toRightOf="@+id/details_ic_clock"
+                android:id="@+id/details_date"
+                android:text="March 26, 1820"
+                android:textSize="16sp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/details_full_desc"
+            android:textSize="14sp"
+            android:text="@string/filler"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:text="Gallery"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/details_image_list"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/details_map"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_alignLeft="@+id/details_map"
+                android:textAlignment="viewStart"
+                android:layout_alignBottom="@+id/details_map"
+                android:background="?android:background"
+                android:text="View on Map"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:text="Sources"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/details_source_list"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
