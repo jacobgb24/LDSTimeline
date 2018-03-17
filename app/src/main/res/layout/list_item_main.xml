@@ -8,7 +8,7 @@
     android:clickable="true"
     android:focusable="true"
     android:background="?android:attr/selectableItemBackground"
-    android:id="@+id/event">
+    android:id="@+id/list_timeline_event">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
             android:gravity="left"
             android:textColor="?android:textColorPrimary"
             android:layout_height="wrap_content"
-            android:id="@+id/list_main_title"/>
+            android:id="@+id/list_timeline_name"/>
         <TextView
             android:layout_width="wrap_content"
             android:paddingRight="8dp"
@@ -31,11 +31,11 @@
             android:gravity="right"
             android:textColor="?android:textColorPrimary"
             android:layout_height="wrap_content"
-            android:id="@+id/list_main_date"/>
+            android:id="@+id/list_timeline_date"/>
 
     </LinearLayout>
     <TextView
-        android:id="@+id/list_main_location"
+        android:id="@+id/list_timeline_location"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:textColor="?android:textColorSecondary"

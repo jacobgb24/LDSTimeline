@@ -1,4 +1,4 @@
-package com.jacobgb24.ldstimeline.Utils;
+package com.jacobgb24.ldstimeline.Adapters;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -52,11 +52,16 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
 
         public ViewHolder(View v) {
             super(v);
-            layout = (LinearLayout) v.findViewById(R.id.event);
-            name = (TextView) v.findViewById(R.id.event_name);
-            date = (TextView) v.findViewById(R.id.event_date);
-            location = (TextView) v.findViewById(R.id.event_location);
+            layout = (LinearLayout) v.findViewById(R.id.list_timeline_event);
+            name = (TextView) v.findViewById(R.id.list_timeline_name);
+            date = (TextView) v.findViewById(R.id.list_timeline_date);
+            location = (TextView) v.findViewById(R.id.list_timeline_location);
 
+        }
+        void bind(Event event) {
+            name.setText(event.getName());
+            date.setText(event.getDate());
+            location.setText(event.getLocation());
             layout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -65,11 +70,6 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
                     v.getContext().startActivity(intent);
                 }
             });
-        }
-        void bind(Event event) {
-            name.setText(event.getName());
-            date.setText(event.getDate());
-            location.setText(event.getLocation());
         }
     }
 }
