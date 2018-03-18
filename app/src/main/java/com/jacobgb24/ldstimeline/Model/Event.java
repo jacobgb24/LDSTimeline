@@ -1,5 +1,7 @@
 package com.jacobgb24.ldstimeline.Model;
 
+
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
@@ -7,13 +9,13 @@ import java.util.Map;
  * Created by jacob_000 on 2/17/2018.
  */
 
-public class Event {
+public class Event implements Serializable {
     private String name;
     private String date;
     private String location;
     private double latitude;
     private double longitude;
-    private String fullDesc;
+    private String description;
     private List<Pair> images;
     private List<Pair> sources;
 
@@ -60,12 +62,12 @@ public class Event {
         this.longitude = longitude;
     }
 
-    public String getFullDesc() {
-        return fullDesc;
+    public String getDescription() {
+        return description;
     }
 
-    public void setFullDesc(String fullDesc) {
-        this.fullDesc = fullDesc;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public List<Pair> getImages() {
@@ -84,3 +86,4 @@ public class Event {
         this.sources = sources;
     }
 }
+

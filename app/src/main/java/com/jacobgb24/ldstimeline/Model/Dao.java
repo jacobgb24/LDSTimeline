@@ -3,9 +3,11 @@ package com.jacobgb24.ldstimeline.Model;
 import android.content.Context;
 
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -34,8 +36,9 @@ public class Dao {
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-            Gson gson = new Gson();
-            events = new Gson().fromJson(new String(buffer, "UTF-8"), ArrayList.class);
+            Type typeToken = new TypeToken<List<Event>>() {
+            }.getType();
+            events = new Gson().fromJson(new String(buffer, "UTF-8"), typeToken);
 
 
         } catch (IOException ex) {

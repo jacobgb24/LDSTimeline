@@ -1,10 +1,12 @@
 package com.jacobgb24.ldstimeline.Model;
 
+import java.io.Serializable;
+
 /**
  * Created by jacob_000 on 3/17/2018.
  */
 
-public class Pair {
+public class Pair implements Serializable {
     String key;
     String value;
 

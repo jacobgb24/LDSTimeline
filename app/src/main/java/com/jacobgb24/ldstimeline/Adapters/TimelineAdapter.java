@@ -58,7 +58,7 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
             location = (TextView) v.findViewById(R.id.list_timeline_location);
 
         }
-        void bind(Event event) {
+        void bind(final Event event) {
             name.setText(event.getName());
             date.setText(event.getDate());
             location.setText(event.getLocation());
@@ -66,7 +66,7 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(v.getContext(), DetailedActivity.class);
-                    intent.putExtra("NAME", name.getText().toString());
+                    intent.putExtra("EVENT", event);
                     v.getContext().startActivity(intent);
                 }
             });
