@@ -1,6 +1,7 @@
 package com.jacobgb24.ldstimeline.Adapters;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.jacobgb24.ldstimeline.Activities.DetailedActivity;
+import com.jacobgb24.ldstimeline.Activities.PhotoActivity;
 import com.jacobgb24.ldstimeline.Model.Pair;
 import com.jacobgb24.ldstimeline.R;
 
@@ -60,7 +63,15 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
 
         void bind(final Pair imagePair) {
             Glide.with(activity).load(imagePair.getValue()).centerCrop().override(500, 500).into(image);
-            //TODO add image viewer
+            image.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(v.getContext(), PhotoActivity.class);
+                    intent.putExtra("URL", imagePair.getValue());
+                    intent.putExtra("INFO", imagePair.getKey());
+                    v.getContext().startActivity(intent);
+                }
+            });
         }
 
     }

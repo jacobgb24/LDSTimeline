@@ -43,6 +43,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Activities.MainActivity" />
         </activity>
+        <activity android:name=".Activities.PhotoActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.DetailedActivity" />
+
+        </activity>
     </application>
 
 </manifest>

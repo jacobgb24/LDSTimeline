@@ -31,7 +31,9 @@ public class DetailedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detailed);
-        event = (Event) getIntent().getExtras().get("EVENT");
+        if(event == null) {
+            event = (Event) getIntent().getExtras().get("EVENT");
+        }
 
         title = (TextView) findViewById(R.id.details_title);
         title.setText(event.getName());
