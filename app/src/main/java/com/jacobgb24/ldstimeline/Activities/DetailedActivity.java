@@ -1,19 +1,23 @@
 package com.jacobgb24.ldstimeline.Activities;
 
+import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.jacobgb24.ldstimeline.Adapters.GalleryAdapter;
 import com.jacobgb24.ldstimeline.Adapters.SourceAdapter;
 import com.jacobgb24.ldstimeline.Adapters.TimelineAdapter;
 import com.jacobgb24.ldstimeline.Model.Dao;
 import com.jacobgb24.ldstimeline.Model.Event;
 import com.jacobgb24.ldstimeline.R;
+import com.jacobgb24.ldstimeline.util.StaticMapBuilder;
 
 public class DetailedActivity extends AppCompatActivity {
     private Event event;
@@ -43,6 +47,17 @@ public class DetailedActivity extends AppCompatActivity {
         location.setText(event.getLocation());
         description = (TextView) findViewById(R.id.details_full_desc);
         description.setText(event.getDescription());
+
+        mapPreview = (ImageView) findViewById(R.id.details_map);
+        Glide.with(this).load(StaticMapBuilder.getStaticMapUrl(event)).fitCenter().into(mapPreview);
+        mapPreview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), MapsActivity.class);
+                intent.putExtra("EVENT", event);
+                v.getContext().startActivity(intent);
+            }
+        });
 
         sourceAdapter = new SourceAdapter(this, event.getSources());
         sources = (RecyclerView) findViewById(R.id.details_source_list);
