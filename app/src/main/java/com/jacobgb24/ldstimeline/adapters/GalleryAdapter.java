@@ -1,4 +1,4 @@
-package com.jacobgb24.ldstimeline.Adapters;
+package com.jacobgb24.ldstimeline.adapters;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,9 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.jacobgb24.ldstimeline.Activities.DetailedActivity;
-import com.jacobgb24.ldstimeline.Activities.PhotoActivity;
-import com.jacobgb24.ldstimeline.Model.Pair;
+import com.jacobgb24.ldstimeline.views.PhotoActivity;
+import com.jacobgb24.ldstimeline.model.Pair;
 import com.jacobgb24.ldstimeline.R;
 
 import java.util.List;

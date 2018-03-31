@@ -1,7 +1,6 @@
-package com.jacobgb24.ldstimeline.Activities;
+package com.jacobgb24.ldstimeline.views;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,11 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.jacobgb24.ldstimeline.Adapters.GalleryAdapter;
-import com.jacobgb24.ldstimeline.Adapters.SourceAdapter;
-import com.jacobgb24.ldstimeline.Adapters.TimelineAdapter;
-import com.jacobgb24.ldstimeline.Model.Dao;
-import com.jacobgb24.ldstimeline.Model.Event;
+import com.jacobgb24.ldstimeline.adapters.GalleryAdapter;
+import com.jacobgb24.ldstimeline.adapters.SourceAdapter;
+import com.jacobgb24.ldstimeline.model.Event;
 import com.jacobgb24.ldstimeline.R;
 import com.jacobgb24.ldstimeline.util.StaticMapBuilder;
 
@@ -53,7 +50,7 @@ public class DetailedActivity extends AppCompatActivity {
         mapPreview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), MapsActivity.class);
+                Intent intent = new Intent(v.getContext(), MapActivity.class);
                 intent.putExtra("EVENT", event);
                 v.getContext().startActivity(intent);
             }

@@ -1,4 +1,4 @@
-package com.jacobgb24.ldstimeline.Model;
+package com.jacobgb24.ldstimeline.model;
 
 import java.io.Serializable;
 

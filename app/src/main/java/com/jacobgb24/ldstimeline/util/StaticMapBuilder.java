@@ -1,6 +1,6 @@
 package com.jacobgb24.ldstimeline.util;
 
-import com.jacobgb24.ldstimeline.Model.Event;
+import com.jacobgb24.ldstimeline.model.Event;
 
 /**
  * Created by jacob_000 on 3/23/2018.

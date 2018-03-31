@@ -1,4 +1,4 @@
-package com.jacobgb24.ldstimeline.Adapters;
+package com.jacobgb24.ldstimeline.adapters;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,12 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jacobgb24.ldstimeline.Model.Event;
-import com.jacobgb24.ldstimeline.Model.Pair;
+import com.jacobgb24.ldstimeline.model.Pair;
 import com.jacobgb24.ldstimeline.R;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by jacob_000 on 3/17/2018.

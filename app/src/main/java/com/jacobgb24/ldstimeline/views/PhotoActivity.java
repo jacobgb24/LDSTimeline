@@ -1,15 +1,12 @@
-package com.jacobgb24.ldstimeline.Activities;
+package com.jacobgb24.ldstimeline.views;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.bumptech.glide.Glide;
 import com.github.chrisbanes.photoview.PhotoView;
 import com.jacobgb24.ldstimeline.R;
-
-import static android.R.attr.uiOptions;
 
 /**
  * Created by jacob_000 on 3/18/2018.

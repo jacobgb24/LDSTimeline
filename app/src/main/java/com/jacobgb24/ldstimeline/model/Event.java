@@ -1,9 +1,8 @@
-package com.jacobgb24.ldstimeline.Model;
+package com.jacobgb24.ldstimeline.model;
 
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by jacob_000 on 2/17/2018.

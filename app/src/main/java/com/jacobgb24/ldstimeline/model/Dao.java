@@ -1,4 +1,4 @@
-package com.jacobgb24.ldstimeline.Model;
+package com.jacobgb24.ldstimeline.model;
 
 import android.content.Context;
 
@@ -8,9 +8,6 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -48,5 +45,14 @@ public class Dao {
 
     public List<Event> getEvents() {
         return events;
+    }
+
+    public Event getEventByName(String name) {
+        for(Event event: events){
+            if(event.getName().equals(name)) {
+                return event;
+            }
+        }
+        return null;
     }
 }
