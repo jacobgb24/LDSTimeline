@@ -55,6 +55,12 @@
                 android:value=".views.DetailedActivity" />
 
         </activity>
+        <activity android:name=".views.AboutActivity" android:label="About">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.DetailedActivity" />
+
+        </activity>
     </application>
 
 </manifest>

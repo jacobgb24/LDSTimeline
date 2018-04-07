@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">LDS Timeline</string>
     <string name="title_activity_maps">Map</string>
-    <string name="filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ante enim, pulvinar at mauris non, tincidunt euismod magna. Cras enim dui, mattis non rutrum eu, tincidunt vel turpis. Curabitur sagittis rutrum nisl, a ornare risus bibendum ut. Etiam venenatis dolor id tincidunt cursus. Praesent eu varius metus. In vel lacus at tellus pharetra imperdiet. Maecenas volutpat odio vel nisi tincidunt, a pretium purus euismod. Morbi sollicitudin rhoncus lorem vitae vestibulum. Nam eget rhoncus ligula. Cras sed nunc nunc. Quisque vehicula, enim quis pharetra porttitor, odio augue sagittis augue, viverra ullamcorper neque mi et arcu. Nunc ligula enim, fermentum at diam sit amet, consequat efficitur eros. Vestibulum non interdum neque. Etiam non mi ipsum. Cras vestibulum quam et est congue, ac porttitor urna vestibulum.</string>
+    <string name="license_path">license_path</string>
+    <string name="license_name">license_name</string>
 </resources>

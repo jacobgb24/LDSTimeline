@@ -5,14 +5,19 @@
     "location": "Palmyra, NY",
     "latitude": 43.039584,
     "longitude": -77.245565,
-    "description": "Joseph Smith received the First Vision in a grove of trees near his home in the state of New York",
+    "description": "In the spring of 1820, God the Father and Jesus Christ appeared to Joseph Smith as he prayed in a grove of trees near his home in western New York. This event is known as the First Vision. During the vision, Joseph asked which church was correct, and Jesus Christ answered, telling Joseph not to join any of them. The Lord explained that the churches of the day believed “in incorrect doctrines and that none of them was acknowledged of God as His Church and kingdom”. The First Vision marked the beginning of the Restoration of the gospel of Jesus Christ in this last dispensation. Joseph Smith was chosen to be the Lord’s prophet in the latter days.",
     "images": [
       {
+        "key": "lds.org",
         "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/780x390/telford_sacred_grove_cover.jpg"
       },
       {
         "key": "© Walter Rane",
         "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Artwork/rane-sacred-grove.jpg"
+      },
+      {
+        "key": "josephsmith.net",
+        "value": "https://josephsmith.net/bc/content/images/joseph-smith-net/Artwork/olsen-first-vision.jpg"
       }
     ],
     "sources": [
@@ -21,12 +26,436 @@
         "value": "http://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/1"
       },
       {
-        "key": "LDS.org",
+        "key": "Historic Sites - Sacred Grove",
         "value": "https://history.lds.org/article/historic-sites/palmyra/sacred-grove?lang\u003deng\u0026groupid\u003d42505425195324349830-eng"
       },
       {
         "key": "JSH",
         "value": "https://www.lds.org/scriptures/pgp/js-h/1.15-20?lang\u003deng#14"
+      },
+      {
+        "key": "lds.org - First Vision Accounts",
+        "value": "https://www.lds.org/topics/first-vision-accounts?lang\u003deng"
+      }
+    ]
+  },
+  {
+    "name": "Visitation by Moroni",
+    "date": "September 21, 1823",
+    "location": "Palmyra, NY",
+    "latitude": 43.040414,
+    "longitude": -77.240808,
+    "description": "On the night of September 21, 1823, Joseph Smith prayed to know God\u0027s further will toward him. Steadily a light grew \"as though the house was filled with consuming and unquenchable fire.\" 1 Moroni, a messenger sent from God, stood before him. In mortal life Moroni had been the last of ancient American prophets having authority 2 from God and whose teachings were recorded for our time.\nMoroni declared \"that the time was at hand for the Gospel 3 in all its fullness to be preached in power, unto all nations\" and that Joseph was \"to be an instrument in the hands of God\" in that work. 4 He quoted ancient prophets who had foreseen that this time would come. As Moroni stood before him Joseph was shown in vision \"the place where the plates were deposited.\"",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "http://media.ldscdn.org/images/media-library/gospel-art/church-history/angel-moroni-appears-to-joseph-129546-print.jpg"
+      },
+      {
+        "key": "josephsmith.net",
+        "value": "https://josephsmith.net/bc/content/images/joseph-smith-net/Artwork/malm-moroni-appears.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "josephsmith.net - Moroni Messenger of the Restoration",
+        "value": "https://josephsmith.net/article/moroni-messenger-of-the-restoration?lang\u003deng"
+      },
+      {
+        "key": "Ensign - Moroni",
+        "value": "https://www.lds.org/ensign/1992/01/moroni-joseph-smiths-tutor?lang\u003deng"
+      },
+      {
+        "key": "JSH",
+        "value": "https://www.lds.org/scriptures/pgp/js-h/1.27-54?lang\u003deng#26"
+      }
+    ]
+  },
+  {
+    "name": "Gold Plates Obtained",
+    "date": "September 22, 1827",
+    "location": "Manchester, NY",
+    "latitude": 42.994564,
+    "longitude": -77.220281,
+    "description": "The angel Moroni appeared and told Joseph to meet him at the hill in one year at that same time and to continue the yearly meetings until the time came to receive the plates. At each visit, Moroni gave further instructions about what the Lord was going to do and how his kingdom was to be conducted. On 22 September 1827, after four years of preparation, Moroni gave the Prophet Joseph the gold plates and told him to begin the work of translation. Emma Hale, whom Joseph had married earlier that year, accompanied him on that occasion and was waiting at the foot of the Hill Cumorah when her husband returned with the plates. She became an important help to the Prophet and acted as one of the Book of Mormon scribes for a brief period.",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "http://media.ldscdn.org/images/media-library/gospel-art/church-history/angel-moroni-gives-plates-to-joseph-82829-print.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "http://media.ldscdn.org/images/media-library/gospel-art/book-of-mormon/moroni-buries-plates-39672-print.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "http://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-translating-gold-plates-329346-print.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "lds.org - Our Heritage ch. 2",
+        "value": "https://www.lds.org/manual/our-heritage-a-brief-history-of-the-church-of-jesus-christ-of-latter-day-saints/chapter-two?lang\u003deng\u0026_r\u003d1"
+      },
+      {
+        "key": "Ensign - Moroni",
+        "value": "https://www.lds.org/ensign/1992/01/moroni-joseph-smiths-tutor?lang\u003deng"
+      },
+      {
+        "key": "JSH",
+        "value": "https://www.lds.org/scriptures/pgp/js-h/1.59?lang\u003deng#58"
+      }
+    ]
+  },
+  {
+    "name": "Restoration of the Priesthood",
+    "date": "May 1829",
+    "location": "Harmony, PA",
+    "latitude": 41.950877,
+    "longitude": -75.63798,
+    "description": "Having read about baptism for the remission of sins as they worked on the translation of the gold plates, Joseph Smith and his scribe Oliver Cowdery went to a secluded area to inquire of the Lord concerning the matter on May 19, 1829. There, on the banks of the Susquehanna River near Harmony, Pennsylvania, they received the answer to their prayer. John the Baptist, a resurrected being, came to them as \"a messenger from heaven . . . in a cloud of light.\" He conferred upon them the Aaronic Priesthood. Then, in obedience to his instructions, Joseph and Oliver baptized each other and ordained each other to the Aaronic Priesthood.\nLater that month, the ancient Apostles Peter, James, and John conferred the Melchizedek Priesthood upon Joseph Smith and Oliver Cowdery. ",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "https://www.lds.org/bc/content/ldsorg/ensign/images/aaronic-priesthood-joseph-oliver-john-baptist_1462216_inl.jpg"
+      },
+      {
+        "key": "Sam Penrod/KSL-TV",
+        "value": "https://img.ksl.com/slc/2571/257128/25712814.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/melchizedek-priesthood-given-to-joseph-37721-gallery.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "Ensign - Restoration of the Priesthood",
+        "value": "https://www.lds.org/ensign/1996/12/the-restoration-of-the-aaronic-and-melchizedek-priesthoods?lang\u003deng"
+      },
+      {
+        "key": "lds.org - Restoration of the Gospel",
+        "value": "https://www.lds.org/topics/restoration-of-the-gospel?lang\u003deng"
+      },
+      {
+        "key": "JSH",
+        "value": "https://www.lds.org/scriptures/pgp/js-h/1.68-72?lang\u003deng#67"
+      }
+    ]
+  },
+  {
+    "name": "Book of Mormon Published",
+    "date": "March 26, 1830",
+    "location": "Palmyra, NY",
+    "latitude": 43.063857,
+    "longitude": -77.230679,
+    "description": "Joseph Smith consistently testified that he translated the Book of Mormon by the “gift and power of God.” His scribes shared that testimony. The angel who brought news of an ancient record on metal plates buried in a hillside and the divine instruments prepared especially for Joseph Smith to translate were all part of what Joseph and his scribes viewed as the miracle of translation. The Book of Mormon was first printed and sold in the Grandin Building located in downtown Palmyra, New York. After translating the golden plates, Joseph Smith \"agreed with Mr. Egbert B. Grandin to print five thousand copies\"1 of the Book of Mormon. Publication of the book was financed by Martin Harris, a family friend who mortgaged part of his farm to guarantee the $3,000 printing cost. The Book of Mormon was first offered for sale in Grandin\u0027s bookstore on March 26, 1830.",
+    "images": [
+      {
+        "key": "© Anthony Sweat",
+        "value": "https://i2.wp.com/anthonysweat.com/wp-content/uploads/2017/08/Gift-and-Power-of-God_Scaled-2.jpg?fit\u003d763%2C1024"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/historic-sites/Palmyra/grandin-building/historic-sites-book-of-mormon-walton-grandin-bldg-exterior.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://www.lds.org/bc/content/locations/book-of-mormon-publication-site-grandin-building/images/GrandinInterior7_Detail.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-translating-mormon-parson-153741-gallery.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "Ensign - Book of Mormon goes to Press",
+        "value": "https://www.lds.org/ensign/1972/12/the-book-of-mormon-goes-to-press?lang\u003deng"
+      },
+      {
+        "key": "Historic Sites - BoM Publication Site",
+        "value": "https://history.lds.org/article/historic-sites/new-york/palmyra/book-of-mormon-publication-site-palmyra?lang\u003deng"
+      },
+      {
+        "key": "lds.org - Translation of the Book of Mormon",
+        "value": "https://www.lds.org/topics/book-of-mormon-translation?lang\u003deng"
+      },
+      {
+        "key": "Testimony of the 3 Witnesses",
+        "value": "https://www.lds.org/scriptures/bofm/three?lang\u003deng"
+      },
+      {
+        "key": "Testimony of the 8 Witnesses",
+        "value": "https://www.lds.org/scriptures/bofm/eight?lang\u003deng"
+      }
+    ]
+  },
+  {
+    "name": "Church Organized",
+    "date": "April 6, 1830",
+    "location": "Fayette, NY",
+    "latitude": 42.865938,
+    "longitude": -76.868979,
+    "description": "Once translation was complete and the Book of Mormon was published, the Lord revealed to Joseph Smith that the time was right to organize His Church. Mary Whitmer, having welcomed a few guests into her home, soon prepared for many visitors from towns up to a few days’ walk or ride away. About 50 people gathered at the Whitmers’ double log home for the official organization of the Church on April 6, 1830. During the meeting, the Lord revealed the duties of Joseph Smith, the prophet and leader of the Church, and the commitment required of Church members. Joseph Smith recorded in his history, “The Holy Ghost was poured out upon us to a very great degree. Some prophesied, whilst we all praised the Lord and rejoiced exceedingly.”",
+    "images": [
+      {
+        "key": "Brent Walton, 2014.",
+        "value": "https://history.lds.org/bc/content/images/historic-sites/Palmyra/fayette/historic-sites-fayette-whitmer-log-home.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://www.lds.org/church/news/viewpoint-the-kingdom-of-god-continues-to-march-forth?lang\u003deng"
+      },
+      {
+        "key": "josephsmith.net",
+        "value": "https://josephsmith.net/bc/content/images/joseph-smith-net/Artwork/780x390/barrett-organization-church.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "D\u0026C 20",
+        "value": "https://www.lds.org/scriptures/dc-testament/dc/20"
+      },
+      {
+        "key": "Historic Sites - Whitmer Farm",
+        "value": "https://history.lds.org/article/historic-sites/new-york/fayette/whitmer-farm?lang\u003deng"
+      },
+      {
+        "key": "Ensign - April 6, 1830",
+        "value": "https://www.lds.org/ensign/1971/01/april-6-1830-the-day-the-church-was-organized?lang\u003deng#"
+      },
+      {
+        "key": "josephsmith.net - The Church of Jesus Christ Restored",
+        "value": "https://josephsmith.net/article/the-church-of-jesus-christ-restored?lang\u003deng"
+      }
+    ]
+  },
+  {
+    "name": "Saints flee Jackson County",
+    "date": "Late 1833",
+    "location": "Jackson County, MO",
+    "latitude": 39.089901,
+    "longitude": -94.426912,
+    "description": "At the same time the Saints were striving to build the kingdom of God in Kirtland, Ohio, many members of the Church were undergoing great struggles in Jackson County, Missouri. Following the commandment of the Lord, Bishop Partridge purchased hundreds of acres of land in Jackson County for the many Saints who were emigrating from Ohio and elsewhere. At an early stage, local citizens warned Church members that they were displeased with the arrival of so many Latter-day Saints, who, they feared, would soon overwhelm them at the voting polls. The Saints were primarily from the northern states and generally were against black slavery, which was then legal in the state of Missouri. The Saints’ belief in the Book of Mormon as scripture, their claim that Jackson County was ultimately to be their Zion, and their assertion that they were led by a prophet were very unsettling. Too, the charge that they had contact with the Indians aroused the suspicions of the local citizens. At first the Latter-day Saints attempted to avoid direct conflict; however, the beatings of members and the destruction of property eventually led to a battle near the Big Blue River. Finally Church leaders called on the people to take their belongings and flee from Jackson County.",
+    "images": [
+      {
+        "key": "Joseph Smith Papers",
+        "value": "http://www.josephsmithpapers.org/bc-jsp/content/jsp/images/content/library/images/plc57---D2-page-34---Place-3-Missouri-ca-1831-p25_A-Pioneer-Home.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/mob-attacking-settlement-jackson-county-153747-gallery-notice.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "lds.org - Our Heritage ch. 4",
+        "value": "https://www.lds.org/manual/our-heritage-a-brief-history-of-the-church-of-jesus-christ-of-latter-day-saints/chapter-four?lang\u003deng"
+      },
+      {
+        "key": "Historic Sites - Timeline",
+        "value": "https://history.lds.org/timeline/historic-sites/ohio/timeline?lang\u003deng"
+      }
+    ]
+  },
+  {
+    "name": "Kirtland Temple Dedicated",
+    "date": "March 27, 1836",
+    "location": "Kirtland, OH",
+    "latitude": 41.625296,
+    "longitude": -81.362157,
+    "description": "In February of 1831 Joseph Smith arrives at Newel K. Whitney’s store after a revelation commanded members of the Church to gather to Ohio. God commanded Joseph in December 1832 to build a temple in Kirtland, Ohio. The Prophet and several others saw the Kirtland Temple in a vision, which provided its design. Construction began in June 1833, at a time of great poverty in the Church. Work slowed in 1834 because many brethren were absent with Zion\u0027s Camp. When they returned, Joseph Smith labored with others in the sandstone quarry, and vigorous efforts to build the temple resumed. Church members made enormous sacrifices to complete this \"House of the Lord.\"\n\nThe Prophet Joseph dedicated the Kirtland Temple on March 27, 1836, repeating the ceremony several days later. Beginning in January and continuing past the dedication, many Church members witnessed heavenly manifestations during this glorious season, culminating in Jesus Christ\u0027s appearance to Joseph Smith and Oliver Cowdery to accept the temple. Moses, Elias, and Elijah also appeared to Joseph and Oliver to restore priesthood keys for the salvation of all mankind.",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/1080x1440/mortensen_whitney_store_1.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/1080x1440/telford_kirtland_exterior.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "D\u0026C 37",
+        "value": "https://www.lds.org/scriptures/dc-testament/dc/37"
+      },
+      {
+        "key": "Historic Sites - Timeline",
+        "value": "https://history.lds.org/timeline/historic-sites/ohio/timeline?lang\u003deng"
+      },
+      {
+        "key": "Historic Sites - Kirtland Temple",
+        "value": "https://history.lds.org/article/historic-sites/ohio/kirtland/kirtland-temple?lang\u003deng"
+      }
+    ]
+  },
+  {
+    "name": "Missionaries Leave for Britain",
+    "date": "June 4, 1837",
+    "location": "Liverpool, UK",
+    "latitude": 53.411266,
+    "longitude": -2.973408,
+    "description": "On 4 June 1837, Heber C. Kimball was set apart to open a mission in England. Over the next few days Orson Hyde, Joseph Fielding, and Willard Richards were called to join him. The first missionaries to England arrived in Liverpool on 20 July 1837. This was the first overseas mission and the largest in the 19th century.  On a subsequent mission, leaders of the Church — eight members of the Quorum of Twelve Apostles and others — departed for British missionary service in April 1839. Thousands of people converted to the Church as a result of this effort. Many immigrated to the United States during the 1840s, bringing strength to the Church organization during difficult circumstances.",
+    "images": [
+      {
+        "key": "Ensign (1855)",
+        "value": "https://www.lds.org/bc/content/shared/content/images/gospel-library/magazine/en10jul38d_missionaries.jpg"
+      },
+      {
+        "key": "lds.org (1855)",
+        "value": "https://content.ldschurch.org/bc/content/missionaries/british/British%20Mission%20office%201880.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "Mormon Newsroom - History of Missionaries",
+        "value": "https://www.mormonnewsroom.org/article/history-of-missionary-work-in-the-church"
+      },
+      {
+        "key": "lds.org - British Mission",
+        "value": "https://history.lds.org/missionary/mission/british?lang\u003deng#1830"
+      }
+    ]
+  },
+  {
+    "name": "Joseph Imprisoned in Liberty Jail",
+    "date": "December 1, 1838",
+    "location": "Clay County, MO",
+    "latitude": 39.248558,
+    "longitude": -94.420601,
+    "description": "Joseph Smith was unjustly confined in Liberty Jail from December 1838 to April 1839 along with several other Church leaders. Joseph suffered helplessly, knowing that the Latter-day Saints were being driven from Missouri under an \"extermination order\" from the governor. The Prophet and his companions were imprisoned in a rough stone dungeon measuring 14 by 14 feet, with a ceiling just over 6 feet high. Only two small barred windows allowed light and air into the cell. The six prisoners suffered from winter weather, filthy conditions, hunger, and sickness.\nWhile in Liberty Jail, the Prophet wrote letters to his family and the Saints. His correspondence contains some of the most poignant revelation found in scripture. In this miserable jail, Joseph learned that his sufferings were still not comparable to those of the Savior, as the Spirit whispered to him: \"The Son of Man hath descended below them all. Art thou greater than he?\" He was taught that in the end \"all these things shall give thee experience, and shall be for thy good. In early April 1839, Joseph and the other prisoners were allowed to escape, and they fled to safety in Illinois.",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "https://www.lds.org/bc/content/shared/content/images/gospel-library/manual/35448/35448_all_004_01-jail.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/780x390/hicks_liberty_jail_36708E.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "Historic Sites - Liberty Jail",
+        "value": "https://history.lds.org/article/historic-sites/missouri/liberty/liberty-jail?lang\u003deng"
+      },
+      {
+        "key": "lds.org - Our Heritage ch. 4",
+        "value": "https://www.lds.org/manual/our-heritage-a-brief-history-of-the-church-of-jesus-christ-of-latter-day-saints/chapter-four?lang\u003deng"
+      },
+      {
+        "key": "D\u0026C 121-123",
+        "value": "https://www.lds.org/scriptures/dc-testament/dc/121"
+      }
+    ]
+  },
+  {
+    "name": "Relief Society Organized",
+    "date": "March 17, 1842",
+    "location": "Nauvoo, IL",
+    "latitude": 40.540664,
+    "longitude": -91.393147,
+    "description": "The Relief Society was organized in March 1842 by the Prophet Joseph Smith. It was originally called the Female Relief Society of Nauvoo, and Emma Hale Smith, the wife of Joseph Smith, was selected as its first president. Shortly before Joseph Smith organized the Relief Society he explained that the sisters would be organized “after the pattern of the priesthood.” He also taught, “The Church was never perfectly organized until the women were thus organized”. Historical records of the Church in our dispensation describe the devotion of early Relief Society women as they bore testimony of the gospel of Jesus Christ and served the sick and poor among them to build up the kingdom of God. Relief Society provided opportunities for Latter-day Saint women to expand their influence and to bless their families, wards, stakes, communities, and nations. Throughout its history, members of the organization have spoken up regarding relevant issues of their time. Relief Society continues to provide such opportunities for women today.",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/brinkerhoff_red_brick_store.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Original%20Photographs/js_store_nauvoo_p457_2_13.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/Revelations%20in%20Context/780x390/Emma%20Smith.jpg"
+      },
+      {
+        "key": "© Nadine Barton",
+        "value": "https://cdn.deseretnews.com/images/article/hires/1660956/1660956.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "lds.org - Relief Society",
+        "value": "https://www.lds.org/topics/relief-society?lang\u003deng"
+      },
+      {
+        "key": "Joseph Smith Papers - Minute Book",
+        "value": "http://www.josephsmithpapers.org/paper-summary/nauvoo-relief-society-minute-book/1#!/paperSummary/nauvoo-relief-society-minute-book\u0026p\u003d3"
+      }
+    ]
+  },
+  {
+    "name": "Martyrdom of Joseph Smith",
+    "date": "June 27, 1844",
+    "location": "Carthage, IL",
+    "latitude": 40.415194,
+    "longitude": -91.139311,
+    "description": "On June 10, 1844, Joseph Smith, who was the mayor of Nauvoo, and the Nauvoo city council ordered the destruction of the Nauvoo Expositor and the press on which it was printed. The Nauvoo Expositor was an anti-Mormon newspaper that slandered the Prophet and other Saints and called for the repeal of the Nauvoo Charter. City officials feared that this publication would lead to mob action. As a result of the action by the mayor and city council, Illinois authorities brought an unfounded charge of riot against the Prophet, his brother Hyrum, and other Nauvoo city officials. The governor of Illinois, Thomas Ford, ordered the men to stand trial in Carthage, Illinois, the county seat, and promised them protection. Joseph knew that if he went to Carthage, his life would be in great danger from the mobs who were threatening him. On June 24, Joseph and Hyrum Smith bade farewell to their families and rode with other Nauvoo city officials toward Carthage, voluntarily surrendering themselves to county officials in Carthage the next day. After the brothers had been released on bail for the initial charge, they were falsely charged with treason against the state of Illinois, arrested, and imprisoned in Carthage Jail to await a hearing. Elders John Taylor and Willard Richards, the only members of the Twelve who were not then serving missions, voluntarily joined them.\nOn the afternoon of June 27, 1844, the little group of brethren sat silent and disconsolate in the jail. Shortly after five o’clock in the afternoon, a large group of attackers stormed the jail, firing their guns at the men inside. Within a few minutes, the foul deed was done. Hyrum Smith was shot first and died almost immediately. Elder Richards miraculously received only a superficial wound; and Elder Taylor, though severely wounded, survived and later became the third President of the Church. The Prophet Joseph ran to the window and was fatally shot. The Prophet of the Restoration and his brother Hyrum had sealed their testimonies with their blood.",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "https://www.lds.org/bc/content/locations/carthage-jail/images/CarthageExterior3-687x489.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "https://www.lds.org/bc/content/locations/carthage-jail/images/CarthageStatue-687x489.jpg"
+      },
+      {
+        "key": "Library of Congress",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/G._W._Fasel_-_Charles_G._Crehen_-_Nagel_%26_Weingaertner_-_Martyrdom_of_Joseph_and_Hiram_Smith_in_Carthage_jail%2C_June_27th%2C_1844.jpg/1280px-G._W._Fasel_-_Charles_G._Crehen_-_Nagel_%26_Weingaertner_-_Martyrdom_of_Joseph_and_Hiram_Smith_in_Carthage_jail%2C_June_27th%2C_1844.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "lds.org - Teaching of Joseph Smith ch. 46",
+        "value": "https://www.lds.org/manual/teachings-joseph-smith/chapter-46?lang\u003deng"
+      },
+      {
+        "key": "lds.org - Martyrdom at Carthage",
+        "value": "https://www.lds.org/ensign/1994/06/martyrdom-at-carthage?lang\u003deng"
+      },
+      {
+        "key": "Historic Sites - Carthage Jail",
+        "value": "https://history.lds.org/article/historic-sites/illinois/carthage/carthage-jail?lang\u003deng"
+      }
+    ]
+  },
+  {
+    "name": "Brigham Young Leads the Church West",
+    "date": "July 24, 1847",
+    "location": "Salt Lake City, UT",
+    "latitude": 40.770445,
+    "longitude": -111.891879,
+    "description": " Brigham was in the Boston area and did not hear definite word of Joseph\u0027s assassination until July 16. He and his companions immediately rushed back to Nauvoo, arriving August 6. After a dramatic confrontation with Sidney Rigdon on August 8, Brigham and the Twelve were sustained to lead the Church. Partly because of concerns about governmental intervention, Brigham Young began the migration in the cold and snow of February 1846 rather than await spring. By hundreds, then by thousands, people, animals, and wagons crossed the Mississippi River and trudged across Iowa mud to a winter quarters (now Florence, Nebraska) on the Missouri River. In late spring nearly 16,000 Saints were on the road. Brigham Young set out with an advance group of 143 men, 3 women, and 2 children on April 5, 1847. Delayed by illness, he arrived in the Salt Lake Valley on July 24, a few days behind the advance party. Once he saw the valley with his own eyes, he announced it as the right place for a new headquarters city and confirmed that the region would be the new gathering place. In Winter Quarters, in December 1847, Brigham and other members of the Twelve reorganized the First Presidency of the Church, with Brigham as president. The following April he, his family, and approximately 3,500 other Saints headed for the Salt Lake Valley. ",
+    "images": [
+      {
+        "key": "lds.org",
+        "value": "https://history.lds.org/bc/content/images/joseph-smith-net/Artwork/390x520/corbett-brigham-portrait.jpg"
+      },
+      {
+        "key": "mormonnewsroom.org",
+        "value": "https://www.mormonnewsroom.org/media/960x540/brigham-young.jpg"
+      },
+      {
+        "key": "lds.org",
+        "value": "http://media.ldscdn.org/images/media-library/church-history/pioneer/pioneers-catching-fish-lawlor-276501-print.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "key": "Mormon Newsroom - Brigham Young",
+        "value": "https://www.mormonnewsroom.org/article/brigham-young"
+      },
+      {
+        "key": "The Trek West - Brigham Young",
+        "value": "https://history.lds.org/article/pioneer-story-brigham-young-an-american-moses?lang\u003deng"
+      },
+      {
+        "key": "Encyclopedia of Mormonism",
+        "value": "http://eom.byu.edu/index.php/Young,_Brigham"
       }
     ]
   }

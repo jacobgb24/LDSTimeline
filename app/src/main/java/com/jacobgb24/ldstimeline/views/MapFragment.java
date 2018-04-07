@@ -6,6 +6,7 @@ package com.jacobgb24.ldstimeline.views;
 
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -20,6 +21,8 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CustomCap;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MapStyleOptions;
@@ -98,6 +101,13 @@ public class MapFragment extends android.support.v4.app.Fragment {
         return v;
     }
 
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mapView.onSaveInstanceState(outState);
+    }
+
     @Override
     public void onResume() {
         super.onResume();
@@ -111,12 +121,6 @@ public class MapFragment extends android.support.v4.app.Fragment {
         }
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        mapView.onSaveInstanceState(outState);
-    }
-
 
     private void loadEvents() {
         boundsBuilder = new LatLngBounds.Builder();
@@ -125,7 +129,7 @@ public class MapFragment extends android.support.v4.app.Fragment {
         for (int i = 0; i < events.size(); i++) {
             LatLng loc = new LatLng(events.get(i).getLatitude(), events.get(i).getLongitude());
             MarkerOptions options =
-                    new MarkerOptions().position(loc).title(events.get(i).getLocation());
+                    new MarkerOptions().position(loc).title(events.get(i).getName());
             Marker marker = map.addMarker(options);
             marker.setTag(events.get(i));
             markers.add(marker);
@@ -157,7 +161,8 @@ public class MapFragment extends android.support.v4.app.Fragment {
     }
 
     private void drawLine(LatLng point1, LatLng point2, int color, int width) {
-        PolylineOptions options = new PolylineOptions().add(point1, point2).color(color).width(width);
+        PolylineOptions options = new PolylineOptions().add(point1, point2).color(color)
+                .width(width);
         Polyline line = map.addPolyline(options);
     }
 
@@ -166,7 +171,7 @@ public class MapFragment extends android.support.v4.app.Fragment {
         event = Dao.getInstance(getContext()).getEventByName(name);
         setEventDetails(event);
         LatLng eventLoc = new LatLng(event.getLatitude(), event.getLongitude());
-        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(eventLoc, 7);
+        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(eventLoc, 12);
         map.moveCamera(update);
         for(Marker marker: markers) {
             if(((Event)marker.getTag()).getName().equals(name)) {

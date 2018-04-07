@@ -74,9 +74,7 @@
             android:paddingRight="16dp"
             android:paddingBottom="8dp"
             android:id="@+id/details_full_desc"
-            android:textSize="14sp"
-            android:text="@string/filler"
-            />
+            android:textSize="14sp" />
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -132,6 +130,7 @@
             android:paddingTop="4dp"
             android:paddingLeft="16dp"
             android:paddingBottom="16dp"
+            android:paddingRight="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>

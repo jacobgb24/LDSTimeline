@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="This application was written by Jacob Davis for my Restoration Project in Brother Sweat's REL C 225 class at BYU. I learned a lot in the process of creating this app about the church and I hope others will too\n\nAll of the images and sources are property of their respective owners. This app is not endorsed by the LDS church."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="20sp"
+        android:text="Licenses"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glide"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/license_glide"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhotoView"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/license_photo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GSON"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/license_gson" />
+</LinearLayout>

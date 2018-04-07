@@ -72,7 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 invalidateOptionsMenu();
                 return true;
             case R.id.action_about:
-                //TODO build about link here
+                Intent intent = new Intent(this, AboutActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
