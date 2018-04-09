@@ -85,6 +85,7 @@
             android:paddingTop="16dp"
             android:paddingLeft="16dp"
             android:textSize="16sp"
+            android:textColor="?android:textColorPrimary"
             android:text="Gallery"/>
         <android.support.v7.widget.RecyclerView
             android:id="@+id/details_image_list"
@@ -111,7 +112,7 @@
                 android:background="#CCFAFAFA"
                 android:text="View on map"
                 android:textSize="16sp"
-                android:textColor="?android:textColorSecondary"
+                android:textColor="?android:textColorPrimary"
                 android:layout_height="wrap_content" />
         </RelativeLayout>
         <View
@@ -124,6 +125,7 @@
             android:paddingTop="16dp"
             android:paddingLeft="16dp"
             android:textSize="16sp"
+            android:textColor="?android:textColorPrimary"
             android:text="Sources"/>
         <android.support.v7.widget.RecyclerView
             android:id="@+id/details_source_list"

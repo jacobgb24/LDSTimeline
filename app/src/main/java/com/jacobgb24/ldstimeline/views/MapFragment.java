@@ -9,9 +9,11 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -46,6 +48,7 @@ public class MapFragment extends android.support.v4.app.Fragment {
     private TextView eventDate;
     private TextView eventLocation;
     private LinearLayout eventLayout;
+    private FloatingActionButton recenterButt;
     private Event event;
     private MapView mapView;
     private LatLngBounds.Builder boundsBuilder;
@@ -71,7 +74,15 @@ public class MapFragment extends android.support.v4.app.Fragment {
                 }
             }
         });
-
+        recenterButt = (FloatingActionButton) v.findViewById(R.id.map_recenter);
+        recenterButt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(mapLoaded) {
+                    centerOnAll();
+                }
+            }
+        });
         mapView.onCreate(savedInstanceState);
 
         try {
@@ -84,6 +95,7 @@ public class MapFragment extends android.support.v4.app.Fragment {
             public void onMapReady(GoogleMap googleMap) {
                 map = googleMap;
                 map.getUiSettings().setMapToolbarEnabled(false);
+
                 googleMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(getContext(), R.raw.map_style));
                 loadEvents();
                 setMarkerListener();
@@ -91,9 +103,7 @@ public class MapFragment extends android.support.v4.app.Fragment {
                     goToEvent(getArguments().getString("EVENT_ID"));
                 }
                 else {
-                    LatLngBounds bounds = boundsBuilder.build();
-                    CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, 50);
-                    map.moveCamera(cu);
+                    centerOnAll();
                 }
                 mapLoaded = true;
             }
@@ -108,6 +118,18 @@ public class MapFragment extends android.support.v4.app.Fragment {
         mapView.onSaveInstanceState(outState);
     }
 
+    private void centerOnAll() {
+        LatLngBounds bounds = boundsBuilder.build();
+        int width = getResources().getDisplayMetrics().widthPixels;
+        int height = getResources().getDisplayMetrics().heightPixels;
+        CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds, width, height, 150);
+        map.animateCamera(cu);
+        event = null;
+        eventLayout.setVisibility(View.GONE);
+        for(Marker marker: markers)
+            marker.hideInfoWindow();
+    }
+
     @Override
     public void onResume() {
         super.onResume();
@@ -115,9 +137,11 @@ public class MapFragment extends android.support.v4.app.Fragment {
 
         if(event == null) {
             eventLayout.setVisibility(View.GONE);
+
         }
         else {
             eventLayout.setVisibility(View.VISIBLE);
+            setEventDetails(event);
         }
     }
 
@@ -133,7 +157,8 @@ public class MapFragment extends android.support.v4.app.Fragment {
             Marker marker = map.addMarker(options);
             marker.setTag(events.get(i));
             markers.add(marker);
-            boundsBuilder.include(loc);
+            if(!events.get(i).getLocation().contains("UT") && !events.get(i).getLocation().contains("UK"))
+                boundsBuilder.include(loc);
         }
         for(int i = 0; i < events.size() - 1; i++) {
             LatLng loc1 = new LatLng(events.get(i).getLatitude(), events.get(i).getLongitude());

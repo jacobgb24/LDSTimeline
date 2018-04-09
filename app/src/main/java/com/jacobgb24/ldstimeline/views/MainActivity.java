@@ -14,7 +14,6 @@ import com.jacobgb24.ldstimeline.R;
 public class MainActivity extends AppCompatActivity {
 
     private FragmentManager fm;
-    private Fragment fragment;
     private Fragment timelineFragment;
     private Fragment mapFragment;
 
@@ -29,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
         fm = getSupportFragmentManager();
         timelineFragment = new TimelineFragment();
         mapFragment = new MapFragment();
-        fragment = timelineFragment;
-        fm.beginTransaction().add(R.id.fragment_container, fragment).commit();
+        fm.beginTransaction().add(R.id.fragment_container, timelineFragment).add(R.id.fragment_container, mapFragment).hide(mapFragment).commit();
         loadedFragment = FRAG.TIMELINE;
 
     }
@@ -60,14 +58,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_map:
-                fragment = mapFragment;
-                fm.beginTransaction().replace(R.id.fragment_container, fragment).commit();
+                fm.beginTransaction().setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out)
+                        .hide(timelineFragment).show(mapFragment).commit();
                 loadedFragment = FRAG.MAP;
                 invalidateOptionsMenu();
                 return true;
             case R.id.action_timeline:
-                fragment = timelineFragment;
-                fm.beginTransaction().replace(R.id.fragment_container, fragment).commit();
+                fm.beginTransaction().setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out)
+                        .hide(mapFragment).show(timelineFragment).commit();
                 loadedFragment = FRAG.TIMELINE;
                 invalidateOptionsMenu();
                 return true;
