@@ -1,29 +1,23 @@
-# README #
+# LDS Timeline #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+<a href='https://play.google.com/store/apps/details?id=com.jacobgb24.ldstimeline&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width="30%" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a></p>
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+------------
 
-### How do I get set up? ###
+### About ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+LDS Timeline was created for Prof. Sweat's Foundations of the Restoration class at BYU. This app provides information about key events in the early history of the Church of Jesus Christ of Latter Day Saints. 
 
-### Contribution guidelines ###
+Features:
+- Over a dozen events covered
+- View events on a map
+- View images and read a short description for each event
+- Easily access sources for more information
 
-* Writing tests
-* Code review
-* Other guidelines
+All sources and images are property of their respective creators. Credit was given when possible. This app is not endorsed by the LDS Church in any form.
 
-### Who do I talk to? ###
+------------
+This application took 18 hours to build from start to finish. Including planning and writing the information presented.
 
-* Repo owner or admin
-* Other community or team contact
+Created by Jacob Davis
